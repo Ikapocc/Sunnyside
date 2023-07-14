@@ -1,0 +1,94 @@
+:root{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan : hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan : hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Darkgrayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.mid-text{
+    font-family: 'Fraunces', serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    justify-content: center;
+    padding-inline: 8rem;
+}
+
+.title{
+    font-size: 35px;
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 900;
+    padding-inline-end: 2rem;
+}
+
+.description{
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.65;
+    color: var(--Darkgrayish-blue);
+}
+
+.learn{
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: var(--Yellow);
+    text-decoration-thickness: .2rem;
+}
+
+.bottom-text{
+    position: relative;
+    isolation: isolate;
+    text-align: center;
+    padding-inline: 11rem;
+    padding-block: 25rem;
+}
+
+.graphic::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.graphic{
+    font-family: 'Fraunces', serif;
+    color: var(--Dark-desaturated-cyan);
+}
+
+.bttm-title{
+    font-size: 28px;
+    padding-block-end: 2rem;
+    font-weight: 900;
+}
+
+.bttm-description{
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.photo::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("../images/desktop/image-photography.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.photo{
+    font-family: 'Fraunces', serif;
+    color: var(--Dark-blue);
+}

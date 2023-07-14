@@ -1,0 +1,58 @@
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+:root{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan : hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan : hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Darkgrayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.head{
+    position: relative;
+    isolation: isolate;
+}
+
+.head::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("./image-header.jpg");
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen dentro del contenedor */
+    z-index: -1;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3.5rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: var(--White);
+}
+
+.nav-text{
+    font-size: 15px;
+}
+
+.nav-text[datatype="focus"]{
+    font-family: "Fraunces", sans-serif;
+    color: black;
+    background-color: var(--White);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}

@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: .6rem;
+    padding-block: 4rem;
+}
+
+.arrow{
+    padding-block-end: 15rem;
+    max-width: 2.5%;
+}
+
+.texts{
+    display: grid;
+    place-items: center;
+}
