@@ -47,7 +47,8 @@
     isolation: isolate;
     text-align: center;
     padding-inline: 11rem;
-    padding-block: 25rem;
+    padding-block-start: 25rem;
+    padding-block-end: 4rem;
 }
 
 .graphic::after{
