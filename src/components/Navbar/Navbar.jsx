@@ -3,7 +3,7 @@ import mySvg from "./logo.svg";
 import "./Navbar.css"
 import Textos from "../TextField/Texts";
 
-export default function Navbar(props) {
+export default function Navbar() {
     return(
             <header className="head">
                 <div className="header-flex">

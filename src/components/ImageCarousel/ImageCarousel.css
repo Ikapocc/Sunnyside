@@ -2,6 +2,6 @@
     display: flex;
 }
 
-img{
+.mini-carousel > img{
     width: 25%;
 }
